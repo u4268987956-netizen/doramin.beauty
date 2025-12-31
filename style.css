@@ -85,3 +85,43 @@ body {
   text-decoration: none;
   color: inherit;
 }
+
+.product-page {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  padding: 60px;
+}
+
+.product-image img {
+  width: 100%;
+  border: 1px solid #222;
+}
+
+.product-info h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.desc {
+  color: #ccc;
+  line-height: 1.9;
+  margin-bottom: 25px;
+}
+
+.price {
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+.contact p {
+  color: #aaa;
+  margin-bottom: 8px;
+}
+
+@media (max-width: 768px) {
+  .product-page {
+    grid-template-columns: 1fr;
+    padding: 30px;
+  }
+}
