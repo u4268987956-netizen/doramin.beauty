@@ -80,3 +80,8 @@ body {
   color: #aaa;
   font-size: 14px;
 }
+
+.product {
+  text-decoration: none;
+  color: inherit;
+}
